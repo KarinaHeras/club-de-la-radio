@@ -1,4 +1,4 @@
-const baseUrl = 'http://api.dataatwork.org/v1/jobs'
+const baseUrl = 'https://api.dataatwork.org/v1/jobs'
 
 async function getJobs(jobsUrl){
     let jobs = await fetch(jobsUrl)
